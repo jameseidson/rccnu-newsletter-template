@@ -1,0 +1,88 @@
+<mjml>  
+
+  <mj-head>
+    <mj-title mj-class="fg-nu-purple">RCCNU Newsletter</mj-title>
+
+    <mj-font name="Lora" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" />
+
+    <mj-attributes>
+      <mj-all font-family="Lora" />
+
+      <mj-class name="bg-nu-purple" background-color="#4E2A84"/>
+      <mj-class name="fg-nu-purple" color="#4E2A84"/>
+      <mj-class name="border-nu-purple" border-color="#4E2A84"/>
+      <mj-class name="content-title" color="#1c1c1c" font-size="25px" font-weight="700" align="center" padding-top="25px" />
+      <mj-class name="content" color="#1c1c1c" font-size="18px" align="left" line-height="1.25" />
+    </mj-attributes>
+
+    <mj-style>
+      a { color: inherit; }      
+    </mj-style>
+
+  </mj-head>
+  
+  <mj-body>
+    <!--Header-->
+    <mj-section mj-class="bg-nu-purple">
+      <mj-column>
+        <mj-image width="400px" src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBm6sb6rPaWSENx7TeCA0rdWfwdxQbDw17LRJyXp1VfYCKArf5VtnLaMEG4CoPBK0msjAegJ9H6Guz9yngHBKzy4nrT=s1600"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!--Body-->
+    <mj-section>
+      <mj-column>
+        <!--Main Title and Date-->
+        <mj-text mj-class="fg-nu-purple" font-size="50px" font-weight="700" align="center">&*Date; Newsletter</mj-text>
+        <mj-divider mj-class="border-nu-purple"></mj-divider>
+
+        <!--Main Content and Attendance Form-->
+        <mj-text mj-class="content-title">&*Content Title;</mj-text>
+        <mj-text mj-class="content" >&*Content</mj-text>
+        <mj-button mj-class="bg-nu-purple" href="&*Link to Attendance Form;">
+          Attendace Form
+        </mj-button>
+
+        <!--Extra Content (If Needed)-->
+        <mj-text mj-class="content" >&*Extra Content</mj-text>
+
+        <!--SAAF-->
+        <mj-text mj-class="content-title">Student Activities Assistance Fund</mj-text>
+        <mj-text mj-class="content">
+          We also want to make everyone aware of the <a href="https://www.northwestern.edu/studentorgs/students/">Student Activities Assistance Fund (SAAF)</a> provided by Northwestern. The university sets aside money every year to help students participate in clubs with less of a financial barrier. If you feel you need financial assistance to participate fully in the club, we highly recommend you check this out and apply. <b>Applications are first-come first-serve</b>, so don't wait!
+        </mj-text>
+
+
+      </mj-column>
+    </mj-section>
+    
+    <!--Footer-->
+    <mj-section mj-class="bg-nu-purple">
+      <mj-column>
+        <!--Social Links-->
+        <mj-social icon-size="0px" mode="horizontal" color="#ffffff">
+          <mj-social-element name="LinkTree" href="https://linktr.ee/rccNU">
+            LinkTree
+          </mj-social-element>
+          <mj-social-element name="Instagram" href="https://www.instagram.com/rockclimbing_nu">
+            Instagram
+          </mj-social-element>
+          <mj-social-element name="GroupMe" href="https://web.groupme.com/join_group/85788189/LkcSReJ0">
+            GroupMe
+          </mj-social-element>
+          <mj-social-element name="Website" href="https://www.nuclimb.org/">
+            Website
+          </mj-social-element>
+          <mj-social-element name="Calendar" href="https://calendar.google.com/calendar/u/3?cid=bm9ydGh3ZXN0ZXJucmNjQGdtYWlsLmNvbQ">
+            Calendar
+          </mj-social-element>
+        </mj-social>
+
+        <!--Unsubscribe Prompt-->
+        <mj-text font-size="11px" color="#9e9e9e" align="center">
+          You are receiving this email because you opted in on our website. <a href="&*TICKET_URL(NU_CLIMBING,SIGNOFF);">Unsubscribe</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

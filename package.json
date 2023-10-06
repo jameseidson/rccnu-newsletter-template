@@ -1,0 +1,14 @@
+{
+  "name": "rcc-newsletter-template",
+  "version": "1.0.0",
+  "description": "Newsletter Template for the Rock Climbing Club at Northwestern University",
+  "main": "main.mjml",
+  "scripts": {
+    "build": "mkdir -p out && mjml main.mjml -o out/main.html"
+  },
+  "author": "James Eidson",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.14.1"
+  }
+}
