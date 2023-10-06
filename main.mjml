@@ -39,7 +39,7 @@
         <!--Main Content and Attendance Form-->
         <mj-text mj-class="content-title">&&*Content-Title;</mj-text>
         <mj-text mj-class="content" >&&*Content;</mj-text>
-        <mj-button mj-class="bg-nu-purple" href="&&*Link-to-Attendance-Form_Must-Include-Https-in-URL;">
+        <mj-button mj-class="bg-nu-purple" href="&&*Link-to-Attendance-Form_Must-Include-Https-in-URL;" font-size="18px">
           Attendance Form
         </mj-button>
 
