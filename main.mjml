@@ -33,18 +33,19 @@
     <mj-section>
       <mj-column>
         <!--Main Title and Date-->
-        <mj-text mj-class="fg-nu-purple" font-size="50px" font-weight="700" align="center">&*Date; Newsletter</mj-text>
+        <mj-text mj-class="fg-nu-purple" font-size="50px" font-weight="700" align="center">&&*Date; Newsletter</mj-text>
         <mj-divider mj-class="border-nu-purple"></mj-divider>
 
         <!--Main Content and Attendance Form-->
-        <mj-text mj-class="content-title">&*Content Title;</mj-text>
-        <mj-text mj-class="content" >&*Content</mj-text>
-        <mj-button mj-class="bg-nu-purple" href="&*Link to Attendance Form;">
-          Attendace Form
+        <mj-text mj-class="content-title">&&*Content-Title;</mj-text>
+        <mj-text mj-class="content" >&&*Content;</mj-text>
+        <mj-button mj-class="bg-nu-purple" href="&&*Link-to-Attendance-Form_Must-Include-Https-in-URL;">
+          Attendance Form
         </mj-button>
 
         <!--Extra Content (If Needed)-->
-        <mj-text mj-class="content" >&*Extra Content</mj-text>
+        <mj-text mj-class="content-title">&&*Extra-Content-Title;</mj-text>
+        <mj-text mj-class="content" >&&*Extra-Content;</mj-text>
 
         <!--SAAF-->
         <mj-text mj-class="content-title">Student Activities Assistance Fund</mj-text>
@@ -80,7 +81,7 @@
 
         <!--Unsubscribe Prompt-->
         <mj-text font-size="11px" color="#9e9e9e" align="center">
-          You are receiving this email because you opted in on our website. <a href="&*TICKET_URL(NU_CLIMBING,SIGNOFF);">Unsubscribe</a>.
+          You are receiving this email because you opted in on our website. <a href="&&*UNSUB;">Unsubscribe</a>.
         </mj-text>
       </mj-column>
     </mj-section>
